@@ -1,0 +1,48 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+img {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #232425;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    section h2 {
+        font-size: 20px;
+    }
+
+    section p {
+        font-size: 14px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+}
